@@ -218,6 +218,38 @@ input[type=submit] {
 
 /* media queries */
 
+@media screen and (max-width: 980px) {
+   .main-section {
+     max-width: 600px;
+     margin-left: 35px;
+     padding-left: 20px;
+   }
+ #logo {
+   margin-left: 30px;
+   }
+ nav {
+   margin-right: 30px;
+   }
+
+  .auth-image {
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    }
+
+  .work {
+  position: relative;
+  float: left;
+  width: 250px;
+  margin: 20px 0 25px;
+  overflow: auto;
+  padding-left: 15px;
+    }
+
+ }
+
 @media screen and (max-width: 768px) {
    .main-section {
     max-width: 700px;
@@ -230,7 +262,7 @@ input[type=submit] {
  nav {
    margin-right: 30px;
    }
-    
+
   .auth-image {
     width: 350px;
     height: 250px;
@@ -238,6 +270,14 @@ input[type=submit] {
     margin-left: 8px;
     margin-bottom: 10px;
     }
+    .work {
+    position: relative;
+    float: left;
+    width: 280px;
+    margin: 20px -5px 25px;
+    overflow: auto;
+    padding-left: 0px;
+      }
 
  }
 
@@ -245,6 +285,7 @@ input[type=submit] {
     .main-section {
     max-width: 580px;
     margin-left: 30px;
+    padding-left: 30px;
     }
 
   #logo {
@@ -259,11 +300,10 @@ input[type=submit] {
      }
 
   .auth-image {
-       width: 500px;
-       height: 350px;
-       margin-top: 20px;
-       margin-left: 8px;
-       margin-bottom: 10px;
+    width: 500px;
+    height: 350px;
+    margin-left: 8px;
+    margin-bottom: 10px;
    }
 
    .work {
@@ -275,6 +315,7 @@ input[type=submit] {
    }
 
   nav {
+    position: static;
     margin-right: 200px;
     float: right;
     margin-top: 15px;
